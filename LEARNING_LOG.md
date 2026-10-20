@@ -144,6 +144,11 @@ over-abstention ~9–11% vs parser ~6%, a disagreement to examine during hand-la
   all-r64 (most params) is the *worst* EM, consistent with its higher train loss.
 - Each adapter eval took ~102–112 s on full dev.
 
+**Where things are stored**
+- Code, results, raw outputs, logs, `train_info.json`: GitHub `DipinJassal/llama3-squad2-qlora`.
+- Adapter weights (12 × seed 0, 1.06 GB, too big for GitHub): private Hugging Face repo
+  `djdipin/llama3-squad2-qlora-adapters`, one folder per config.
+
 **Explain later (owed to you)**
 - Stage 1 check-understanding questions.
 - How/where/what commands pulled the vLLM image; image vs container; Docker volumes.
