@@ -12,7 +12,7 @@ from pathlib import Path
 import torch
 from datasets import load_dataset
 from peft import LoraConfig, get_peft_model, prepare_model_for_kbit_training
-from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
+from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig, set_seed
 from trl import SFTConfig, SFTTrainer
 
 from prompts import ABSTAIN_SYSTEM, ABSTAIN_TOKEN, user_message
@@ -48,8 +48,13 @@ def main():
     ap.add_argument("--batch-size", type=int, default=8)
     ap.add_argument("--grad-accum", type=int, default=2)
     ap.add_argument("--lr", type=float, default=2e-4)
+    ap.add_argument("--seed", type=int, default=0, help="LoRA init + data order; same 10k subset")
     args = ap.parse_args()
-    name = f"{args.modules}-r{args.rank}"
+    name = f"{args.modules}-r{args.rank}" + (f"-s{args.seed}" if args.seed else "")
+    # The original grid (seed 0) did not seed LoRA init (it happens before the Trainer seeds),
+    # so seed-0 inits were unseeded random draws. Replicates seed everything explicitly.
+    if args.seed:
+        set_seed(args.seed)
     out_dir = Path("adapters") / name
 
     train = load_dataset("rajpurkar/squad_v2", split="train").shuffle(seed=0)
@@ -90,7 +95,7 @@ def main():
         logging_steps=10,
         save_strategy="no",
         report_to="none",
-        seed=0,
+        seed=args.seed,
     )
     trainer = SFTTrainer(model=model, args=config, train_dataset=train, processing_class=tokenizer)
 
@@ -104,6 +109,7 @@ def main():
         "name": name, "modules": TARGET_MODULES[args.modules], "rank": args.rank,
         "lora_alpha": 2 * args.rank, "n_train": args.n_train, "max_steps": args.max_steps,
         "batch_size": args.batch_size, "grad_accum": args.grad_accum, "lr": args.lr,
+        "seed": args.seed,
         "trainable_params": trainable, "total_params": total,
         "trainable_pct": 100 * trainable / total,
         "train_loss": result.training_loss, "train_seconds": round(seconds, 1),
