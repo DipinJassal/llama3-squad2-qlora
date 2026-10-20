@@ -1,0 +1,32 @@
+{
+  "run_name": "all-r16__abstain__full",
+  "variant": "abstain",
+  "model": "all-r16",
+  "n": 11873,
+  "seconds": 104.9,
+  "parse": {
+    "n_total": 11873,
+    "n_has_ans": 5928,
+    "n_no_ans": 5945,
+    "exact": 86.49877874168281,
+    "f1": 89.4346713349668,
+    "HasAns_exact": 83.45141700404858,
+    "HasAns_f1": 89.33162158570522,
+    "NoAns_accuracy": 89.53742640874684,
+    "hallucination_rate": 10.462573591253154,
+    "over_abstention_rate": 6.342780026990553
+  },
+  "judge": {
+    "n_total": 11873,
+    "n_has_ans": 5928,
+    "n_no_ans": 5945,
+    "exact": 85.25225301103343,
+    "f1": 88.03757212971594,
+    "HasAns_exact": 80.58367071524967,
+    "HasAns_f1": 86.1622965411804,
+    "NoAns_accuracy": 89.90748528174937,
+    "hallucination_rate": 10.09251471825063,
+    "over_abstention_rate": 9.784075573549257
+  },
+  "judge_invalid": 0
+}

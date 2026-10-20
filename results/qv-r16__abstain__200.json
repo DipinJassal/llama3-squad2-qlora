@@ -1,0 +1,19 @@
+{
+  "run_name": "qv-r16__abstain__200",
+  "variant": "abstain",
+  "model": "qv-r16",
+  "n": 200,
+  "seconds": 6.7,
+  "parse": {
+    "n_total": 200,
+    "n_has_ans": 105,
+    "n_no_ans": 95,
+    "exact": 84.0,
+    "f1": 87.59166666666665,
+    "HasAns_exact": 83.80952380952381,
+    "HasAns_f1": 90.65079365079364,
+    "NoAns_accuracy": 84.21052631578948,
+    "hallucination_rate": 15.789473684210526,
+    "over_abstention_rate": 5.714285714285714
+  }
+}

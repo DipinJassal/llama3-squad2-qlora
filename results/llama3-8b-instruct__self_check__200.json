@@ -1,0 +1,32 @@
+{
+  "run_name": "llama3-8b-instruct__self_check__200",
+  "variant": "self_check",
+  "model": "llama3-8b-instruct",
+  "n": 200,
+  "seconds": 9.8,
+  "parse": {
+    "n_total": 200,
+    "n_has_ans": 105,
+    "n_no_ans": 95,
+    "exact": 59.5,
+    "f1": 70.91385968521205,
+    "HasAns_exact": 54.285714285714285,
+    "HasAns_f1": 76.0263994004039,
+    "NoAns_accuracy": 65.26315789473684,
+    "hallucination_rate": 34.73684210526316,
+    "over_abstention_rate": 3.8095238095238093
+  },
+  "judge": {
+    "n_total": 200,
+    "n_has_ans": 105,
+    "n_no_ans": 95,
+    "exact": 59.5,
+    "f1": 70.91385968521205,
+    "HasAns_exact": 54.285714285714285,
+    "HasAns_f1": 76.0263994004039,
+    "NoAns_accuracy": 65.26315789473684,
+    "hallucination_rate": 34.73684210526316,
+    "over_abstention_rate": 3.8095238095238093
+  },
+  "judge_invalid": 0
+}

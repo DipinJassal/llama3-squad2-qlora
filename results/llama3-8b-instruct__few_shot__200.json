@@ -1,0 +1,32 @@
+{
+  "run_name": "llama3-8b-instruct__few_shot__200",
+  "variant": "few_shot",
+  "model": "llama3-8b-instruct",
+  "n": 200,
+  "seconds": 8.4,
+  "parse": {
+    "n_total": 200,
+    "n_has_ans": 105,
+    "n_no_ans": 95,
+    "exact": 65.5,
+    "f1": 71.69734137609312,
+    "HasAns_exact": 76.19047619047619,
+    "HasAns_f1": 87.99493595446309,
+    "NoAns_accuracy": 53.68421052631579,
+    "hallucination_rate": 46.31578947368421,
+    "over_abstention_rate": 2.857142857142857
+  },
+  "judge": {
+    "n_total": 200,
+    "n_has_ans": 105,
+    "n_no_ans": 95,
+    "exact": 66.0,
+    "f1": 71.86400804275979,
+    "HasAns_exact": 76.19047619047619,
+    "HasAns_f1": 87.36001531954247,
+    "NoAns_accuracy": 54.73684210526316,
+    "hallucination_rate": 45.26315789473684,
+    "over_abstention_rate": 3.8095238095238093
+  },
+  "judge_invalid": 0
+}

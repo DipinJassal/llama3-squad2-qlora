@@ -1,0 +1,32 @@
+{
+  "run_name": "llama3-8b-instruct__zero_shot__full",
+  "variant": "zero_shot",
+  "model": "llama3-8b-instruct",
+  "n": 11873,
+  "seconds": 117.5,
+  "parse": {
+    "n_total": 11873,
+    "n_has_ans": 5928,
+    "n_no_ans": 5945,
+    "exact": 36.7051292849322,
+    "f1": 47.3109692869519,
+    "HasAns_exact": 55.347503373819166,
+    "HasAns_f1": 76.58959823616397,
+    "NoAns_accuracy": 18.116063919259883,
+    "hallucination_rate": 81.88393608074011,
+    "over_abstention_rate": 0.11808367071524967
+  },
+  "judge": {
+    "n_total": 11873,
+    "n_has_ans": 5928,
+    "n_no_ans": 5945,
+    "exact": 38.37277857323339,
+    "f1": 48.71687682641343,
+    "HasAns_exact": 54.04858299595141,
+    "HasAns_f1": 74.76644375168804,
+    "NoAns_accuracy": 22.741799831791422,
+    "hallucination_rate": 77.25820016820857,
+    "over_abstention_rate": 2.5134952766531713
+  },
+  "judge_invalid": 0
+}

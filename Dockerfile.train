@@ -1,0 +1,4 @@
+FROM vllm/vllm-openai:v0.31.0
+RUN pip install --no-cache-dir peft==0.21.2 trl==1.16.0 bitsandbytes==0.50.2
+WORKDIR /work
+ENTRYPOINT []

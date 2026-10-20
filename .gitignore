@@ -3,3 +3,9 @@ __pycache__/
 *.pyc
 .DS_Store
 .deepeval/
+# LoRA weights are too big for GitHub (up to 320 MB); keep only adapter_config.json + train_info.json
+adapters/*/*.safetensors
+adapters/*/tokenizer*
+adapters/*/special_tokens_map.json
+adapters/*/chat_template.jinja
+adapters/*/checkpoints/

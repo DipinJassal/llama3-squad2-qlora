@@ -1,0 +1,32 @@
+{
+  "run_name": "qkvo-r8__abstain__full",
+  "variant": "abstain",
+  "model": "qkvo-r8",
+  "n": 11873,
+  "seconds": 103.5,
+  "parse": {
+    "n_total": 11873,
+    "n_has_ans": 5928,
+    "n_no_ans": 5945,
+    "exact": 86.01869788595974,
+    "f1": 88.97415936526352,
+    "HasAns_exact": 83.67071524966262,
+    "HasAns_f1": 89.59011372195914,
+    "NoAns_accuracy": 88.35996635828427,
+    "hallucination_rate": 11.640033641715727,
+    "over_abstention_rate": 5.7354925775978405
+  },
+  "judge": {
+    "n_total": 11873,
+    "n_has_ans": 5928,
+    "n_no_ans": 5945,
+    "exact": 84.8732418091468,
+    "f1": 87.69064495017523,
+    "HasAns_exact": 80.97165991902834,
+    "HasAns_f1": 86.61454579848696,
+    "NoAns_accuracy": 88.7636669470143,
+    "hallucination_rate": 11.236333052985703,
+    "over_abstention_rate": 9.024966261808368
+  },
+  "judge_invalid": 0
+}

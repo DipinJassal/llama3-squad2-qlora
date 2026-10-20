@@ -1,0 +1,32 @@
+{
+  "run_name": "llama3-8b-instruct__abstain__full",
+  "variant": "abstain",
+  "model": "llama3-8b-instruct",
+  "n": 11873,
+  "seconds": 111.5,
+  "parse": {
+    "n_total": 11873,
+    "n_has_ans": 5928,
+    "n_no_ans": 5945,
+    "exact": 54.12279962941127,
+    "f1": 64.66967538777041,
+    "HasAns_exact": 52.88461538461539,
+    "HasAns_f1": 74.00861266514812,
+    "NoAns_accuracy": 55.35744322960471,
+    "hallucination_rate": 44.64255677039529,
+    "over_abstention_rate": 1.8049932523616734
+  },
+  "judge": {
+    "n_total": 11873,
+    "n_has_ans": 5928,
+    "n_no_ans": 5945,
+    "exact": 54.24913669670681,
+    "f1": 64.54483326239598,
+    "HasAns_exact": 51.58569500674764,
+    "HasAns_f1": 72.20661358374285,
+    "NoAns_accuracy": 56.9049621530698,
+    "hallucination_rate": 43.0950378469302,
+    "over_abstention_rate": 4.183535762483131
+  },
+  "judge_invalid": 0
+}
