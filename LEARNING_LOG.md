@@ -168,7 +168,9 @@ same 10k subset and settings as the grid; full dev, `abstain` prompt, parser sco
 - Adapter weights (12 grid + 6 seed replicates, 1.96 GB, too big for GitHub): private Hugging
   Face repo `djdipin/llama3-squad2-qlora-adapters`, one folder per run.
 
-**Explain later (owed to you)**
+**Explain later (owed to you)**: written up in `STUDY_GUIDE.md` (2026-10-20), still to go
+through together. Remaining human task: label the judge-validation sample
+(`python judge_validation.py label`, then `score`).
 - Stage 1 check-understanding questions.
 - How/where/what commands pulled the vLLM image; image vs container; Docker volumes.
 - vLLM: server vs offline, continuous batching, KV cache, `--gpu-memory-utilization`.
