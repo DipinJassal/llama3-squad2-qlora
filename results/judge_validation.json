@@ -1,0 +1,67 @@
+{
+  "n_labelled": 250,
+  "n_unclear": 1,
+  "n_scored": 249,
+  "judge": {
+    "agreement": 97.59,
+    "cohen_kappa": 0.944,
+    "confusion": {
+      "human=ABSTAIN judge=ABSTAIN": 75,
+      "human=ANSWER judge=ABSTAIN": 6,
+      "human=ANSWER judge=ANSWER": 168
+    }
+  },
+  "parser": {
+    "agreement": 100.0,
+    "cohen_kappa": 1.0,
+    "confusion": {
+      "human=ABSTAIN parser=ABSTAIN": 75,
+      "human=ANSWER parser=ANSWER": 174
+    }
+  },
+  "judge_agreement_by_source": {
+    "zero_shot": 93.88,
+    "self_check": 100.0,
+    "few_shot": 96.0,
+    "abstain": 98.0,
+    "all-r16": 100.0
+  },
+  "judge_disagreements": [
+    {
+      "question": "What may be varied by up to two months?",
+      "response": "the date of the poll",
+      "human": "ANSWER",
+      "judge": "ABSTAIN"
+    },
+    {
+      "question": "What does being an MSP share with the House of Commons?",
+      "response": "a number of qualifications apply",
+      "human": "ANSWER",
+      "judge": "ABSTAIN"
+    },
+    {
+      "question": "What does the IPCC not do?",
+      "response": "The IPCC does not carry out research nor does it monitor climate related data.",
+      "human": "ANSWER",
+      "judge": "ABSTAIN"
+    },
+    {
+      "question": "What will maidens be able to predict by floating their wreaths down the Vistula?",
+      "response": "when they would be married, and to whom",
+      "human": "ANSWER",
+      "judge": "ABSTAIN"
+    },
+    {
+      "question": "What can the IPCC's report deadlines cause to be omitted?",
+      "response": "any significant new evidence or events that change our understanding of climate science",
+      "human": "ANSWER",
+      "judge": "ABSTAIN"
+    },
+    {
+      "question": "What increased about Harvard's student body in 2005?",
+      "response": "its motivation",
+      "human": "ANSWER",
+      "judge": "ABSTAIN"
+    }
+  ]
+}

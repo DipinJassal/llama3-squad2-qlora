@@ -163,6 +163,22 @@ same 10k subset and settings as the grid; full dev, `abstain` prompt, parser sco
   resolved to IPv6 `[::1]`, served by `wslrelay.exe` (not Docker's IPv4 port), which hung under
   load, probably because two eval loops ran at once. Fixed by using `127.0.0.1` in `pipeline.py`.
 
+**Real numbers: judge validation** (2026-10-20; 250 blind human labels by Dipin, 1 unclear →
+249 scored; sample excludes the 200 judge-development questions)
+| Rater vs human | Agreement | Cohen's kappa |
+|---|---|---|
+| LLM judge | 97.59% | 0.944 |
+| Regex parser | 100.00% | 1.000 |
+- All 6 judge errors: human ANSWER → judge ABSTAIN, on vague or negated answers ("its
+  motivation", "a number of qualifications apply", "The IPCC does not carry out research…").
+  Explains the judge's higher over-abstention vs the parser.
+- Judge agreement by source: zero_shot 93.88, few_shot 96.0, abstain 98.0, self_check 100,
+  all-r16 100.
+- Decision: headline tables use parser scoring (validated 249/249); judge numbers kept as a
+  secondary view.
+- One label (item [191/250], "The passage does not mention hypersensitivity…") was corrected
+  from ANSWER to ABSTAIN on request before scoring.
+
 **Where things are stored**
 - Code, results, raw outputs, logs, `train_info.json`: GitHub `DipinJassal/llama3-squad2-qlora`.
 - Adapter weights (12 grid + 6 seed replicates, 1.96 GB, too big for GitHub): private Hugging

@@ -91,6 +91,26 @@ Every attention+MLP r16 seed beats every q,v r8 seed, and all three r64 seeds sc
 3 seeds this is consistent evidence, not a formal significance test. EM differences under about
 0.5–1 point elsewhere in the grid are within run-to-run noise.
 
+### Validating the LLM judge against human labels
+
+250 responses (50 from each prompt variant and from the all-r16 adapter) were labelled blind by a
+human as ANSWER or ABSTAIN ([`judge_validation.py`](judge_validation.py), [`labels/`](labels/)).
+The 200 dev questions used while developing the judge were excluded. 1 response was marked
+unclear, leaving 249.
+
+| Rater vs human | Agreement | Cohen's kappa | Disagreements |
+|---|---|---|---|
+| LLM judge (LLaMA-3-8B) | 97.59% | 0.944 | 6, all human ANSWER → judge ABSTAIN |
+| Regex parser | 100.00% | 1.000 | 0 |
+
+The judge agrees strongly with the human, but every error goes the same way: it calls vague or
+negatively-phrased answers abstentions ("a number of qualifications apply", "The IPCC does not
+carry out research…"). That bias explains why judge scoring gives higher over-abstention than
+parser scoring (~9–11% vs ~6% for the adapters). The parser matched the human on all 249, so
+**the tables above use parser scoring**. Judge agreement by source: zero-shot 93.9%, few-shot
+96.0%, abstain 98.0%, self-check 100%, all-r16 100%: the judge matters most, and errs most, on
+the free-form zero-shot outputs.
+
 ## How it works
 
 **Evaluation pipeline** ([`pipeline.py`](pipeline.py)): a LangGraph graph
@@ -103,7 +123,8 @@ vLLM server and selected by model name.
 either an answer string or an abstention two ways: a regex parser, and an LLM-as-a-judge
 (LLaMA-3-8B-Instruct) that classifies each response as ABSTAIN or ANSWER. The judge sees only the
 response, not the question: with the question it tended to judge *correctness* instead.
-Both scorings are saved; tables above use the parser (judge-scored numbers are in `results/`).
+Both scorings are saved; tables above use the parser, which matched human labels exactly
+(judge-scored numbers are in `results/`).
 
 **Self-check**: a second, separate call asks the model whether the passage supports its proposed
 answer (SUPPORTED / UNSUPPORTED). An earlier version that asked the model to "check your answer"
@@ -117,10 +138,7 @@ as the "explicit abstention" variant, with target `unanswerable` for unanswerabl
 
 ## Limitations
 
-- **The judge is not yet validated against human labels.** A blind sample of 250 responses is
-  ready in [`labels/`](labels/) ([`judge_validation.py`](judge_validation.py)); agreement and
-  Cohen's kappa will be added once it is labelled. Until then, treat judge-scored numbers as
-  unvalidated.
+- Judge validation used a single human labeller (no human–human agreement baseline).
 - One seed per config in the main grid; seeds were replicated for 3 of 12 configs only.
 - The grid was trained on a 10k-example subset for one epoch, and train (33% unanswerable) and
   dev (50%) have different class balance.

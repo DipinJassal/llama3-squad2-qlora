@@ -256,6 +256,15 @@ Run `python judge_validation.py label` and press `a` (ANSWER), `b` (ABSTAIN) or 
   Rough reading: > 0.8 strong, 0.6–0.8 substantial. (Tested on the textbook example: κ = 0.40.)
 - The script also scores the regex parser against your labels, so you can say which is better.
 
+**Your result**: judge 97.59% agreement, κ = 0.944; parser 100%, κ = 1.000 (249 labels).
+Interview framing: "The LLM judge was strong but *biased in one direction*: all 6 errors labelled
+vague or negated answers as abstentions, which inflated judge-scored over-abstention. The simpler
+regex parser matched the human on every item, so I reported parser scores and kept the judge as a
+secondary view." Note why the parser did so well: the fine-tuned and abstain-prompted models
+mostly output a clean span or the exact word `unanswerable`, so a regex is enough; a judge earns
+its keep on free-form outputs, which is where it erred most (zero-shot 93.9%). Caveat: one human
+labeller, so there's no human–human agreement to compare against.
+
 ---
 
 ## 9. Debugging stories (good interview material)
