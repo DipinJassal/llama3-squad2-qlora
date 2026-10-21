@@ -23,7 +23,9 @@ from prompts import (
     pick_few_shot_examples, self_check_messages,
 )
 
-BASE_URL = "http://localhost:8000/v1"
+# 127.0.0.1, not localhost: on Windows "localhost" can resolve to IPv6 [::1], which goes
+# through the WSL relay (wslrelay.exe); it hung under load during the seed-replicate evals.
+BASE_URL = "http://127.0.0.1:8000/v1"
 BASE_MODEL = "llama3-8b-instruct"   # --served-model-name of the vLLM server
 MAX_CONCURRENCY = 256               # in-flight requests; vLLM batches them on the GPU
 
