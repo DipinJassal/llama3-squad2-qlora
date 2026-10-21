@@ -1,0 +1,251 @@
+idx,source,id,question,response
+0,zero_shot,5acf774877cf76001a684e9a,What types of other schools is the city of Harris well known for?,Harris School of Public Policy Studies
+1,self_check,571156152419e3140095559c,Who invented the notion of a steam engine's duty?,Watt.
+2,few_shot,5acfef5477cf76001a686582,What's the party's take on Muslim present?,unanswerable
+3,self_check,57377083c3c5551400e51ee0,What force acts on an object suspended on a spring scale in addition to gravity?,"the ""spring reaction force"""
+4,abstain,5ad26fafd7d075001a42942c,What water abruptly falls into the depths due to the greater density of warmer water?,unanswerable
+5,zero_shot,5ad3b781604f3c001a3fee26,Who ordered Loudoun to defend Louisbourg?,"William Pitt, the Secretary of State responsible for the colonies."
+6,self_check,5ad262ffd7d075001a4290e5,How does inequality help growth?,unanswerable
+7,abstain,5ad27fb9d7d075001a429783,Who predicted the existence of many other planets?,unanswerable
+8,abstain,5ad0415577cf76001a686f05,What may be varied by up to two months?,the date of the poll
+9,few_shot,5a894b333b2508001a72a5b8,What is another piece created by Neumes?,unanswerable
+10,self_check,572656e4dd62a815002e81fe,"Within the EU, which court believes they have the final word deciding on EU's competence?",The Court of Justice believes it has the final say.
+11,few_shot,5a89150d3b2508001a72a4ab,What is the application of prime numbers used in information technology which utilizes the fact that factoring very large prime numbers is expressed in the sum of two primes?,unanswerable
+12,few_shot,572fdb17b2c2fd140056851d,What does being an MSP share with the House of Commons?,a number of qualifications apply
+13,self_check,5710eca0a58dae1900cd6b3b,In what area of this British colony were Huguenot land grants?,Lower Norfolk County.
+14,few_shot,5ad4b0f25b96ef001a109dbc,What tracts does commensal flora help pathogens thrive in?,genitourinary and gastrointestinal tracts
+15,abstain,57300911947a6a140053cfba,"Who threw gold into the Rhine, according to legend?",Hagen.
+16,all-r16,5ad297dbd7d075001a429b2d,During what period did the Alpine orogeny end?,unanswerable
+17,zero_shot,571099b2b654c5140001f9b7,What other Northern European cities had Huguenot congregations?,"Fredericia (Denmark), Stockholm, Hamburg, Frankfurt, Helsinki, and Emden."
+18,few_shot,5727c94bff5b5019007d954c,"Based on population alone, what is Jacksonville's ranking in the United States?",12th
+19,zero_shot,5730876a396df9190009617a,what is the most controversial aspect of imperialism?,"""A controversial aspect of imperialism is the defense and justification of empire-building based on seemingly rational grounds."""
+20,all-r16,5a25bb0bef59cd001a623cb4,What are some conditions that make the availability of skilled tradespeople vary?,unanswerable
+21,zero_shot,5725c071271a42140099d127,In which point did the drainage basin of the Amazon split?,the Purus Arch.
+22,abstain,5a57c667770dc0001aeefd6a,What happens when three types of minerals are re-deposited and change their characteristics?,unanswerable
+23,zero_shot,5ad5344b5b96ef001a10ab88,What is the process of analyzing the amount of resources needed by a particular algorithm to solve a hypothesis?,"""analyzing the amount of resources needed by a particular algorithm to solve a problem"""
+24,self_check,5728848cff5b5019007da298,Who thought that the Yuan's social class system shouldn't be called social classes?,Frederick W. Mote.
+25,all-r16,5a25eed2c93d92001a40034b,What happens in a phase 2 contract?,unanswerable
+26,abstain,5ad3c061604f3c001a3fef72,"Along with electric motors, what type of engines superseded turbines?",unanswerable
+27,all-r16,5727c94bff5b5019007d954c,"Based on population alone, what is Jacksonville's ranking in the United States?",12th
+28,self_check,57114dfb50c2381900b54a53,What happens to the working fluid in a closed loop system?,The working fluid is recycled continuously.
+29,few_shot,57097c8fed30961900e841f6,What did the benefits agency think sports channels on a TV bill meant?,a man's presence in the household
+30,all-r16,5a5508f5134fea001a0e1829,What ideas did the report in 1964 state? ,unanswerable
+31,few_shot,5a38bd58a4b263001a8c18ed,What percentage of American gas stations were out of fuel in 1973?,unanswerable
+32,few_shot,5729f5a03f37b31900478607,What type of T cells help with both innnate and adaptive immunity?,γδ T cells
+33,abstain,571ce7f25efbb31900334e42,"Aside from oxides, what other compounds comprise a large portion of the Earth's crust?",various complex silicates (in silicate minerals).
+34,all-r16,5727f05b4b864d190016406c,What are those with lower incomes less likely to have in order to prepare for the future?,education
+35,zero_shot,5a564c956349e2001acdcd1b,What did RM 3420 report? ,finally in report RM 3420 in 1964.
+36,few_shot,5acfa31377cf76001a685682,Who won the Pullitzer Prize as well as the Nobel Prize?,Saul Bellow
+37,abstain,5726a14c708984140094cc52,Which laws mentioned predate EU law?,"The concept of legal certainty, which is an important general principle of international law and public law."
+38,abstain,572ffd9e04bcaa1900d76fcb,"What interpretation of Islam is, for many of the adherents, the ""gold standard"" of their religion?",the Saudi-interpretation of Islam
+39,abstain,572867543acd2414000df9a1,How many fraternities are apart of the university?,Fifteen
+40,abstain,5729a3716aef05140015506c,What is another piece created by Olivier Messiaen?,La Nativité du Seigneur (1935)
+41,abstain,57263677ec44d21400f3dc4c,What delivery message was used ,store and forward switching
+42,all-r16,56de52614396321400ee27fc,What monastery did the Saint-Evroul monks establish in Italy?,Sant'Eufemia
+43,few_shot,573792ee1c456719005744ba,What was used to create a new electromagnetic theory to reconcile the troubles with electromagnetic theory as it used to stand?,quantum mechanics
+44,abstain,5ad13b23645df0001a2d12f8,What has operated among a decreasing plurality of national and globalising legal systems?,unanswerable
+45,few_shot,572753335951b619008f8853,"In the most common construction procurement, who acts as the project coordinator?",the architect or engineer
+46,abstain,5a6cee244eec6b001a80a6ea,What do rules about conflict of interest involving doctors diagnosing patients not resemble?,This system reflects much similarity to the checks and balances system of the U.S. and many other governments.
+47,all-r16,5a38a8d2a4b263001a8c1878,What did the price of oil rise to in 1979 globally?,unanswerable
+48,abstain,572fe92204bcaa1900d76e96,What island does the cold water flow of the Rhine and Lake Constance flow to?,The island of Lindau.
+49,zero_shot,5a581bda770dc0001aef0001,When was the Royal Society of Edinburgh founded?,1785
+50,few_shot,5a0c9275f5590b0018dab46a,Loss of biodiversity is not a concern of what?,Environmentalists
+51,zero_shot,572726c9708984140094da7e,What person argues that civil disobedience is used to describe everything?,Marshall Cohen
+52,abstain,5a7b086921c2de001afe9d03,How long are the trails in Roeding Park?,unanswerable
+53,abstain,5acf9b1177cf76001a685443,What was the experiment that tested early life on Mars called?,unanswerable
+54,few_shot,5730ab63396df91900096262,By when did the Germanic tribes conquer the Celtic peoples?,late antiquity
+55,self_check,56e1b8f3e3433e14004230e7,Case complexity likelihoods provide variable probabilities of what general measure? ,unanswerable
+56,few_shot,5ad3b6d8604f3c001a3fedff,What agreement did Montcalm and Indians have?,unanswerable
+57,zero_shot,5a25c41def59cd001a623cda,What do engineers offer themselves as for a project?,"""one-stop shopping"""
+58,abstain,5726ea985951b619008f8265,What do some community pharmacies do?,Some community pharmacies employ consultant pharmacists and/or provide consulting services.
+59,zero_shot,5725f6e138643c19005acf1b,In what year did Fresno experience the most rainfall?,July 1982 to June 1983.
+60,self_check,5710ed7bb654c5140001fa2b,When was the Dutch Revolt?,1568–1609
+61,few_shot,5a6cecdb4eec6b001a80a6db,How are pharmacists never regulated?,unanswerable
+62,abstain,572a135daf94a219006aa7a1,The idea of acquired immunity in jawed vertebrates is the basis of what medical treatment?,This process of acquired immunity is the basis of vaccination.
+63,abstain,5ad02a9777cf76001a686c61,The former speaker of Parliament is whom?,Tricia Marwick
+64,zero_shot,572a070c6aef0514001551cb,Who lives no longer on average than Greeks and New Zealanders?,Americans live no longer on average (about 77 years in 2004) than Greeks (78 years) or New Zealanders (78).
+65,all-r16,5a25e8d5ef59cd001a623d15,What relationship do finance initiatives involve?,unanswerable
+66,zero_shot,5a5808ef770dc0001aeeff68,What method studies the positions of glaciers and their subsurface?,structural geology
+67,zero_shot,57287ee3ff5b5019007da276,How were the Mongol garrison families earning money?,"""from the harvests of their Chinese tenants"""
+68,self_check,570d2417fed7b91900d45c3d,What kind of economy does Victoria have?,"The economy of Victoria is highly diversified: service sectors including financial and property services, health, education, wholesale, retail, hospitality and manufacturing constitute the majority of employment."
+69,few_shot,5726431aec44d21400f3dd14,What did Tymnet connect ,"host computers (servers) at thousands of large companies, educational institutions, and government agencies"
+70,all-r16,57114667a58dae1900cd6d82,What company developed the most successful steam engine indicator?,unanswerable
+71,self_check,5ad03a8a77cf76001a686e83, When was Isiah Bowman not appointed to President Wilson's Inquiry?,unanswerable
+72,self_check,56e2042ecd28a01900c67c1e,Who provided a definition of linear bounded automata in 1960?,John Myhill's definition of linear bounded automata (Myhill 1960)
+73,abstain,5ad27abcd7d075001a42962d,How much water does the Rhine discharge at the French border?,"more than 300 m3/s (11,000 cu ft/s)"
+74,self_check,57263677ec44d21400f3dc4a,What was report P-2626,"A general architecture for a large-scale, distributed, survivable communications network."
+75,few_shot,5a669b3df038b7001ab0c050,Who leads the Qwest consortium?,unanswerable
+76,abstain,57339555d058e614000b5df3,What year was the University of Warsaw established?,1816
+77,abstain,5726545f708984140094c2a5,"The legislative body, the Council, are made up of what type of individuals?",different ministers of the member states.
+78,few_shot,5a7b0e2221c2de001afe9d14,When did Fulton Street become the main financial district?,unanswerable
+79,self_check,5a0c7cb3f5590b0018dab42a,Only small portions of the Amazon forest are a result of what?,unanswerable
+80,abstain,5ad2649ad7d075001a429161,What is the length of Hoek van Holland conventionally measured in?,1036.20 km
+81,few_shot,5ad0185a77cf76001a6869b9,Where does the 8 county megaregion extend from?,unanswerable
+82,abstain,5727d4922ca10214002d977e,What are the top 4-5% graduating students honored with?,degrees summa cum laude
+83,zero_shot,5ad22cd0d7d075001a428619,"What did Joseph Priestley's August 4, 1774 experiment focus on?",sunlight on mercuric oxide (HgO) inside a glass tube
+84,all-r16,5a7b064b21c2de001afe9ce3,What percentage of Pinedale is black?,unanswerable
+85,few_shot,5ad0309377cf76001a686dc2,The outcome of what is known in hours?,unanswerable
+86,abstain,5a834caae60761001a2eb53c,When are some juvenile plankton able to do before becoming an adult?,Before reaching the adult size and shape.
+87,few_shot,571cac5d5efbb31900334dd2,What spacecraft contained data to determine the oxygen content of the Sun?,Genesis
+88,few_shot,5ad25d49d7d075001a428eed,In what year was Rene Goulaine de Laudonniere born?,unanswerable
+89,self_check,5a590de93e1742001a15cf59,Where does extension occur?,Extension causes the rock units as a whole to become longer and thinner.
+90,zero_shot,571a4d1a4faf5e1900b8a95a,"By sunlight, what compound did  Priestley concentrate on to make the gas he called ""dephlogisticated air""?",mercuric oxide (HgO)
+91,all-r16,5727dc473acd2414000dee45,How many weight rooms are in the Malkin Athletic Center,three
+92,all-r16,57094a79efce8f15003a7dc4,What year was Setanta Sports awarded Primeier Leage rights to broadcast?,2006
+93,few_shot,5ad53b9d5b96ef001a10abc8,What kind of solutions are one of the central objects of study in computational complexity theory?,decision problems
+94,abstain,57302cd004bcaa1900d772d7,When did ISIL pledge allegiance to al-Qaeda?,2004
+95,few_shot,5a63772268151a001a9222f4,Who feared that Holland might establish their own settlement?,The French
+96,self_check,57287338ff5b5019007da232,When did the Yuan people suffer a series of natural disasters?,From the late 1340s onwards.
+97,few_shot,5711607f2419e314009555cd,What is the power-to-weight ratio of a steam plant compared to that of an internal combustion engine?,lower
+98,self_check,57377aac1c4567190057447c,What type of measurements result under Schrodinger equations when using operators instead of Newtonian variables?,"""quantized"", i.e. they appear in discrete portions."
+99,zero_shot,5ad24b13d7d075001a428bcc,"What is oxygen on Earth, O, referred to as?","The common allotrope of elemental oxygen on Earth is called dioxygen, O2."
+100,few_shot,571c9074dd7acb1400e4c104,What light radiation does ozone absorb?,ultraviolet (UV) radiation
+101,zero_shot,5729d51d3f37b31900478593,"In a market economy, what is inequality a reflection of?",the productivity gap between highly-paid professions and lower-paid professions.
+102,all-r16,5733ef47d058e614000b662c,Who did Dinwiddie order to address French in Virginia territory?,Major George Washington
+103,self_check,5a834af5e60761001a2eb51f,What do some species of rotifers do instead of being predators?,unanswerable
+104,all-r16,57300a9a04bcaa1900d77063,When was Rhineland subject to the Treaty of Versailles?,At the end of World War I
+105,zero_shot,5a2ec77ba83784001a7d2465,What nationality was Paul-Louis Simond?,French.
+106,few_shot,5ad14468645df0001a2d148c,What are some of the rejected general principles of European Union law?,unanswerable
+107,all-r16,5a38baa2a4b263001a8c18d9,What did the UK ban on Sundays due to the embargo?,"flying, driving and boating"
+108,self_check,5733f8dc4776f419006615fb,Where was French withdrawal to?,"Ticonderoga Point, where they began the construction of Fort Carillon (later renamed Fort Ticonderoga after British capture in 1759)."
+109,self_check,5ad25878d7d075001a428dc6,How many regard themselves as Huguenots today outside of France?,"A diaspora of French Australians still considers itself Huguenot, even after centuries of exile."
+110,all-r16,5ad3b3dc604f3c001a3fed6a,How were British unable to cut supplies to Louisbourg?,unanswerable
+111,zero_shot,572ff293947a6a140053ce53,Which section of the Rhine is most factories found?,along the Lower Rhine
+112,few_shot,5ad3c46a604f3c001a3fefb4,Who described a steam turbine in 1690?,Denis Papin
+113,zero_shot,57298ef11d0469140077952d,When was the Riemann hypothesis proposed?,1859
+114,self_check,5ad560b85b96ef001a10ad21,What is least important complexity class of counting problems?,unanswerable
+115,self_check,5ad0278077cf76001a686be5,What complex features flower-shaped buildings?,leaf-shaped buildings
+116,all-r16,5ad49c34ba00c4001a268d9a,What is the system of many biological structures and processes that protect an organism from cold?,unanswerable
+117,few_shot,5a2c0e0dbfd06b001a5ae9b3,Which company never expanded their platform?,unanswerable
+118,self_check,572843304b864d190016484a,The university agreed to grant a degree to any graduate of affiliate schoos that did what?,"who made a grade of A for all four years, and on any other graduate who took twelve weeks additional study at the University of Chicago."
+119,all-r16,5ad401de604f3c001a3ffd2e, In what dynasty did Tianze die?,unanswerable
+120,few_shot,57332b66d058e614000b5759,What did Article 12 of the Allied Armistice terms require Germany to withdraw from?,areas controlled by Russia in 1914
+121,all-r16,5725be0f271a42140099d118,What has allowed for the Savanna region to expand into the tropics?,Climate fluctuations
+122,all-r16,57302a3aa23a5019007fced0,Where did support from governmental and religious groups come from?,neighboring Pakistan
+123,zero_shot,5ad288e1d7d075001a429972,What path changes the direction of an object?,a circular path
+124,self_check,57115ac550c2381900b54a77,What type of engines became popular for power generation after piston steam engines?,Steam turbines.
+125,zero_shot,572f60f4947a6a140053c8ea,What is the first major city in the stream of the Rhine?,Basel.
+126,all-r16,5ad3a839604f3c001a3feaf3,Where did New Briton call home?,unanswerable
+127,abstain,5729efab3f37b319004785d2,Dendritic cells present antigens to what cells of the adaptive nervous system?,T cells
+128,zero_shot,5728827b2ca10214002da42b,What were chao made out of?,The bark of mulberry trees.
+129,zero_shot,5ad4c99d5b96ef001a10a0a4,What did the Vilnius formally establish in 1573?,formally establishing religious freedom
+130,zero_shot,5705e99452bb89140068968c,What is the smallest geographical region discussed?,counties
+131,abstain,573796edc3c5551400e51f37,What is the term for the lack of obsevable free quarks?,color confinement.
+132,all-r16,56e16839cd28a01900c67888,What method is used to intuitively assess or quantify the amount of resources required to solve a computational problem?,unanswerable
+133,abstain,5a665142846392001a1e1abd,What was the taxman's political philosophy?,unanswerable
+134,zero_shot,57108ee6a58dae1900cd6a1e,What time of day did these reformed supposedly gather to engage in Huguenot rituals?,night
+135,abstain,5ad56bcd5b96ef001a10ae64,"Where can complexity classes RPP, BPP, PPP, BQP, MA, and PH be located?",RP ⊆ BPP ⊆ PP ⊆ PH ⊆ PSPACE
+136,few_shot,573792ee1c456719005744b9,What was dificult to reconcile the photoelectric effect and the missing ultraviolet catastrophe?,electromagnetic theory
+137,few_shot,5733f5f24776f419006615c4,What future Revolutionary key figures participated in this attack?,George Washington and Thomas Gage
+138,self_check,5ad4f0675b96ef001a10a6ea,Who were the main detractors of the humoral theory of immunity?,unanswerable
+139,all-r16,5a668b33f038b7001ab0bf90,What was sponsored by Francis Heisler in August 1957?,unanswerable
+140,abstain,5ad141e1645df0001a2d1402,What happens if the Directive's deadline is met?,unanswerable
+141,all-r16,5ad4081b604f3c001a3ffeda, What did Mongols refuse to worship?,unanswerable
+142,few_shot,5726400589a1e219009ac5f1,What do Cydippids use to capture their prey?,tentilla covered with colloblasts
+143,all-r16,57300bf504bcaa1900d77089,When was Operation Market Garden?,September 1944
+144,abstain,5729f799af94a219006aa708,The function of long-lived memory cells is an example of what kind of immune response?,"""adaptive"""
+145,few_shot,5ad26367d7d075001a4290fe,When did Galor and Zeria show old information about inequality?,1993
+146,zero_shot,5ad03b2777cf76001a686e9c,Who has no power to pass laws?,The UK Parliament in Westminster.
+147,zero_shot,57293d116aef051400154bc8,What does the IPCC not do?,The IPCC does not carry out research nor does it monitor climate related data.
+148,self_check,572fbb04a23a5019007fc8fa,Who represents the Scottish Parliament at home and abroad in an official capacity?,The Presiding Officer.
+149,zero_shot,5acf974277cf76001a6853ac,What are graduate courses at the U of C known for?,"Among the academic cream of American universities – Harvard, Yale, Princeton, MIT, and the University of Chicago – it is UChicago that can most convincingly claim to provide the most rigorous, intense learning experience."
+150,self_check,572750df5951b619008f882f,What is the name of the scheme that provides tuition and fee assistance to students due to excess enrollment?,The Education Service Contracting scheme.
+151,abstain,5a6ce1054eec6b001a80a668,What are responsibilities pharmacy technicians never deal with?,compounding/dispensing medications
+152,few_shot,5ad040d977cf76001a686ef7,Parliament elects a second minister from whom?,the First Minister
+153,zero_shot,57302ad804bcaa1900d772b2,What was Zia-ul-Haq accused of using Islamization to legitimize? ,"""his means of seizing power"""
+154,abstain,57108198b654c5140001f937,How many protestants live in France today?,Approximately one million Protestants in modern France represent some 2% of its population.
+155,zero_shot,572ffa79a23a5019007fcbec,Microplates squeezing and rotating created the features of what?,Mediterranean geography.
+156,few_shot,5a8397d0e60761001a2eb7fb,What did salmon used to be regarded as in marine food chains?,"""dead ends"""
+157,abstain,57111ab8a58dae1900cd6c3c,What protestant religions made Northern European counties safe for Huguenot immigration?,Lutheran and Reformed.
+158,zero_shot,5ad4acbd5b96ef001a109d79,What enzyme is not an antibacterial?,proteases
+159,all-r16,5a7b3b3121c2de001afe9df2,How much did it rain in 1962?,unanswerable
+160,few_shot,57107d73b654c5140001f920,How many Huguenots fled France by the 1700s?,"roughly 500,000"
+161,few_shot,5a55242b134fea001a0e197f,Level 3 communications launched what? ,a brand new nationwide network
+162,self_check,5acfec2077cf76001a6864f6,When did the Brotherhood support violence as a means of achieving its goals?,unanswerable
+163,zero_shot,572820512ca10214002d9e72,What is the land area of Jacksonville?,"757.7 sq mi or 1,962 km2"
+164,abstain,5a580070770dc0001aeeff36,What are two ways lava tubes are added during deformation?,unanswerable
+165,abstain,572812e74b864d19001643d0,Thoreau argues that usually majority rules but their views collectively are sometimes?,liable to be abused and perverted before the people can act through it.
+166,abstain,56dde0379a695914005b9637,When was the Latin version of the word Norman first recorded?,9th century
+167,all-r16,571cc8815efbb31900334df2,Pollution of water by nitrates and phosphates will encourage the growth of what?,algae
+168,self_check,5a893bd73b2508001a72a54b,Of what form is the infinite amount of positives that comprise the special cases of Schinzel's hypothesis?,primes of the form n2 + 1.
+169,zero_shot,5ad25d49d7d075001a428eee,In what year was Pedro Menendez de Aviles born?,The passage does not mention the year Pedro Menéndez de Avilés was born.
+170,self_check,5a63866968151a001a922336,What political party is strongest in Melbourne's poor regional areas?,Labor is strongest in Melbourne's working class western and northern suburbs.
+171,zero_shot,570d2c20fed7b91900d45cab,When was Victoria first settled?,1803 at Sullivan Bay.
+172,self_check,5730088e947a6a140053cfae,Where does Khomeini's beliefs fall as compared to Mawdudi and Qutb?,unanswerable
+173,all-r16,5726bcde708984140094cfbf,What has lately been being viewed as a fundamental status of member state nationals by the Court of Justice?,Citizenship of the EU
+174,all-r16,5733cf61d058e614000b62ea,Who fought in the French and Indian war?,the colonies of British America and New France
+175,all-r16,57336755d058e614000b5a3d,Over how many species of trees can be found in the Saxon Garden?,100
+176,all-r16,5a665747846392001a1e1aec,What does Black's Law Dictionary say that rebellion doesn't have to be?,unanswerable
+177,abstain,5725dd7d89a1e219009abfea,The Tower District is centered around which historic theatre?,The historic Tower Theatre.
+178,self_check,5705e4fe75f01819005e7705,What is the name of the desert on the border of Arizona?,Colorado Desert
+179,abstain,57300ec0947a6a140053d004,Who deployed its army into Afghanistan in 1979?,The Soviet Union deployed its 40th Army into Afghanistan in 1979.
+180,self_check,5ad50f1c5b96ef001a10ab31,What type of architecture is represented in the St. John's Tower?,unanswerable
+181,self_check,5ad14e86645df0001a2d16e0,What did not require workforce consultation in business?,unanswerable
+182,all-r16,5a7b3b3121c2de001afe9dee,What is the record low for July?,unanswerable
+183,zero_shot,5a564b1e6349e2001acdcd14,How are packet mode communications dissolved? ,"Packets are normally forwarded by intermediate network nodes asynchronously using first-in, first-out buffering,"
+184,all-r16,5705fb7f52bb891400689752,Who considers Los Angeles County to be a separate metropolitan area?,unanswerable
+185,zero_shot,5acfea9277cf76001a68648d, What happened to the credibility of secular politics as a result of the Eight-Day War?,"A steep and steady decline in the popularity and credibility of secular, socialist and nationalist politics ensued."
+186,all-r16,5ad3d560604f3c001a3ff2c9,What mechanism moves coal from a firebox to a bunker?,unanswerable
+187,few_shot,57114667a58dae1900cd6d81,What year saw the earliest recorded use of the steam engine indicator?,1851
+188,zero_shot,5733d3cb4776f419006612ea,When was King George's war?,the 1740s
+189,all-r16,5a2ec431a83784001a7d2455,What's the Latin name for Germany?,unanswerable
+190,zero_shot,5ad4dd325b96ef001a10a4a9,What is divided into five classes?,The passage does not mention hypersensitivity being divided into five classes.
+191,few_shot,572a05eb3f37b31900478657,Policies which reduce the inequality associated effects of unemployment support what type of growth?,economic growth
+192,all-r16,570d418dfed7b91900d45dbf,What is the lower house of the Victorian parliament called?,Legislative Assembly
+193,abstain,5a2ed0a0a83784001a7d24d1,Where did the plague originate?,unanswerable
+194,few_shot,57377ec7c3c5551400e51f05,How are the particle forces and accelerations explained as by gauge bosons exchange?,as a mathematical by-product of exchange of momentum-carrying gauge bosons
+195,zero_shot,57275411dd62a815002e9b31,Who presents different ideas about how to accomplish goals?,Several D&B contractors.
+196,all-r16,5ad4faa45b96ef001a10a85c,What profession does Zbigniew Marek have?,unanswerable
+197,self_check,5ad10f94645df0001a2d0bc8,What does the TEU not allow the European Council to do?,unanswerable
+198,self_check,5730b7ce069b5314008322c5,Which country besides the Cuba did the United states try to annex in 1898?,The Philippines.
+199,few_shot,5a67b94bf038b7001ab0c444,How many Swedish students were enrolled in public school in 2008?,unanswerable
+200,few_shot,57339dd94776f41900660ecf,What will maidens be able to predict by floating their wreaths down the Vistula?,"when they would be married, and to whom"
+201,few_shot,57281c594b864d19001644a4,What other terminology is considered much more destructive?,civil rebellion
+202,all-r16,57377083c3c5551400e51ee1,What equals the spring reaction force on an object suspended on a spring reaction scale? ,unanswerable
+203,all-r16,572a142e3f37b319004786bc,How can the deposition of compliment kill invader cells directly?,disrupting their plasma membrane
+204,all-r16,5a892e8e3b2508001a72a4fb,What is the name of one impressive continuation of the Carmichael primality test?,unanswerable
+205,abstain,5a638b3668151a001a92235a,By August 2010 how many trade schools did Victoria have?,unanswerable
+206,zero_shot,57109275b654c5140001f99f,What is the common term for the loss of key members of French society to Huguenot emigration?,brain drain
+207,all-r16,57287e512ca10214002da3fb,The mother of which emperor was a concubine?,Tugh Temur
+208,zero_shot,570963a5200fba1400367f34,What kind of company is Sky UK Limited?,British telecommunications company.
+209,zero_shot,5a0c98fef5590b0018dab49e,Savanna and desert were replaced by what in the Amazon?,rainforest
+210,all-r16,57265a58dd62a815002e8272,"Mazda, Mitsubishi and Isuzu joined partnership with which American car company?","Ford, Chrysler, and GM"
+211,self_check,571142b3a58dae1900cd6d5b,In what part of the 19th century were steam turbines introduced?,late part of the 19th century
+212,self_check,5acfe84677cf76001a686406,Salafism posits that democracy is responsible for what type of horrible events of the 21st century?,unanswerable
+213,few_shot,57377aac1c4567190057447c,What type of measurements result under Schrodinger equations when using operators instead of Newtonian variables?,quantized
+214,all-r16,572853e8ff5b5019007da188,What is the name of the university's core curriculum?,Common Core
+215,self_check,5733f5f24776f419006615c2,How much success did this expedition with Braddock find?,It was a disaster.
+216,few_shot,5733f5264776f419006615a3,What political response was convening in June/July 1754?,the convening of the Albany Congress
+217,zero_shot,572882242ca10214002da424,When was the Imperial Library Directorate established?,"In 1273,"
+218,all-r16,5ad25f82d7d075001a428f86,The Unique Model predicts that exchanged particles are the fundamental means by what?,unanswerable
+219,few_shot,5a665002846392001a1e1ab7,A constitutional impasse pertains to how a citizen relates to the state and what?,its laws
+220,all-r16,572654e2708984140094c2b8,What did Biraben say about the plague in Europe?,the plague was present somewhere in Europe in every year between 1346 and 1671
+221,self_check,572f57c704bcaa1900d7686e,What is the delta in the Rhine delimited in the west by?,"The Alter Rhein (""Old Rhine"")"
+222,abstain,5acfef5477cf76001a686582,What's the party's take on Muslim present?,unanswerable
+223,few_shot,572951f16aef051400154cd0,What was one proposal to let the IPCC respond to new evidence faster?,"turning the whole climate science assessment process into a moderated ""living"" Wikipedia-IPCC"
+224,self_check,5acfec9277cf76001a686507,Over 300 Egyptian police were victims of what group's campaign of terror?,unanswerable
+225,abstain,57096505ed30961900e84085,When is Sky going to introduce UHD broadcasts?,later in 2016.
+226,abstain,5725ce4d38643c19005acd4d,Which city is the fifth-largest city in California?,Fresno.
+227,zero_shot,5729517d6aef051400154cc9,What can the IPCC's report deadlines cause to be omitted?,any significant new evidence or events that change our understanding of climate science
+228,abstain,5ad25878d7d075001a428dc8,Where are there the fewest Protestants in France?,"Most are concentrated in Alsace in northeast France and the Cévennes mountain region in the south,"
+229,self_check,570960cf200fba1400367f01,"when did the English High court find Microsoft's use of the term ""SkyDrive"" infringed on Sky's right?",July 2013
+230,zero_shot,5ad02ef677cf76001a686d6a,what was invented in 1888 that revolutionized warfare?,The machine gun had become an effective battlefield weapon by the 1880s.
+231,self_check,5705f7c875f01819005e77df,"Outside of its use of automobiles, what else is southern California famous for using?",unanswerable
+232,zero_shot,5a822dc931013a001a335298,What increased about Harvard's student body in 2005?,its motivation
+233,zero_shot,5ad28173d7d075001a4297fc,What was later formulated into 3 vector equations?,"None, it was later reformulated into 4 vector equations."
+234,self_check,5727c94bff5b5019007d954b,What was the population Jacksonville city as of 2010?,unanswerable
+235,all-r16,5ad26000d7d075001a428fb1,What type of reaction produces oxygen in plane cabins?,exothermic
+236,few_shot,570d44abb3d812140066d5fe,How many Catholic schools were in Victoria?,489
+237,self_check,57273f27dd62a815002e9a0c,What has a classification system for construction companies?,The Standard Industrial Classification and the newer North American Industry Classification System.
+238,abstain,572882242ca10214002da423,Who was Ogedei's wife?,Töregene Khatun
+239,abstain,5a0c6698f5590b0018dab3e7,Nineteen nations have what in this region?,unanswerable
+240,self_check,5ad02ab477cf76001a686c6a, What were the non-native inhabitants of Australia called?,"""its sparse Aboriginal inhabitants"""
+241,zero_shot,5726deed5951b619008f80c9,In what year is the oldest pharmacy said to have been established?,1221
+242,self_check,5a636ede68151a001a9222d5,Where was the first settlement in Canberra?,unanswerable
+243,all-r16,572ffe6fb2c2fd14005686f2,The Muslim Brotherhood's competence compares well against what type of local governments?,"incompetent, inefficient, or neglectful"
+244,self_check,5ad14012645df0001a2d13b2,What does TFEU article not state?,"""expressly confer a right on citizens or companies to bring claims"""
+245,all-r16,5a592e733e1742001a15cff6,Who published William Smith's geological map?,unanswerable
+246,all-r16,572f57c704bcaa1900d76870,"In local Alemannic dialect, what is the the singular form of the names of the islands formed by the Rhine?",Isel
+247,self_check,5a0c99fcf5590b0018dab4a4,Amazon rain forest experienced another mild drought in what year,unanswerable
+248,abstain,5a2ed525a83784001a7d2502,How many people lived in Constantinople in 1701?,unanswerable
+249,self_check,56e1b62ecd28a01900c67aa3,The time required to output an answer on a deterministic Turing machine is expressed as what?,"the total number of state transitions, or steps, the machine makes before it halts and outputs the answer."
