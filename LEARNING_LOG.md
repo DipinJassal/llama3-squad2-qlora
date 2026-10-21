@@ -144,10 +144,29 @@ over-abstention ~9–11% vs parser ~6%, a disagreement to examine during hand-la
   all-r64 (most params) is the *worst* EM, consistent with its higher train loss.
 - Each adapter eval took ~102–112 s on full dev.
 
+**Real numbers: seed replicates** (`seed_summary.py`; seeds 1–2 trained 2026-10-20 12:06–15:32,
+same 10k subset and settings as the grid; full dev, `abstain` prompt, parser scoring)
+| Config | EM seed 0 / 1 / 2 | EM mean ± std | Halluc. mean ± std (range) | Over-abst. mean ± std |
+|---|---|---|---|---|
+| qv-r8 | 85.34 / 85.03 / 85.27 | 85.22 ± 0.16 | 12.70 ± 0.42 (0.76) | 5.84 ± 0.36 |
+| all-r16 | 86.50 / 86.26 / 85.77 | 86.18 ± 0.37 | 11.11 ± 0.89 (1.67) | 5.97 ± 0.41 |
+| all-r64 | 85.02 / 84.50 / 84.49 | 84.67 ± 0.30 | 12.22 ± 1.46 (2.89) | 6.64 ± 1.07 |
+- EM is stable across seeds (std 0.16–0.37). The ordering all-r16 > qv-r8 > all-r64 holds for
+  every seed: all three all-r16 seeds beat all three qv-r8 seeds, and all three all-r64 seeds are
+  the lowest. With only 3 seeds this is consistent evidence, not a formal significance test.
+- Hallucination / over-abstention vary much more across seeds (all-r64 hallucination ranges
+  10.66–13.56). Where a run lands on the answer-vs-abstain trade-off is partly luck, so the
+  single-seed grid's hallucination differences (10.21–12.28) are mostly within seed noise.
+- Seed std of EM (~0.3) is about the size of the binomial standard error estimated earlier, so
+  grid differences under ~0.5–1 EM point shouldn't be read as real.
+- Debugging note: 4 replicate evals first failed with `APIConnectionError`. `localhost`
+  resolved to IPv6 `[::1]`, served by `wslrelay.exe` (not Docker's IPv4 port), which hung under
+  load, probably because two eval loops ran at once. Fixed by using `127.0.0.1` in `pipeline.py`.
+
 **Where things are stored**
 - Code, results, raw outputs, logs, `train_info.json`: GitHub `DipinJassal/llama3-squad2-qlora`.
-- Adapter weights (12 × seed 0, 1.06 GB, too big for GitHub): private Hugging Face repo
-  `djdipin/llama3-squad2-qlora-adapters`, one folder per config.
+- Adapter weights (12 grid + 6 seed replicates, 1.96 GB, too big for GitHub): private Hugging
+  Face repo `djdipin/llama3-squad2-qlora-adapters`, one folder per run.
 
 **Explain later (owed to you)**
 - Stage 1 check-understanding questions.

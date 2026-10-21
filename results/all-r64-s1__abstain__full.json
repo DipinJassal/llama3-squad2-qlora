@@ -1,0 +1,32 @@
+{
+  "run_name": "all-r64-s1__abstain__full",
+  "variant": "abstain",
+  "model": "all-r64-s1",
+  "n": 11873,
+  "seconds": 110.3,
+  "parse": {
+    "n_total": 11873,
+    "n_has_ans": 5928,
+    "n_no_ans": 5945,
+    "exact": 84.5026530784132,
+    "f1": 87.70773701503188,
+    "HasAns_exact": 82.55735492577598,
+    "HasAns_f1": 88.97671416657785,
+    "NoAns_accuracy": 86.44238856181666,
+    "hallucination_rate": 13.557611438183347,
+    "over_abstention_rate": 5.600539811066127
+  },
+  "judge": {
+    "n_total": 11873,
+    "n_has_ans": 5928,
+    "n_no_ans": 5945,
+    "exact": 83.34035205929419,
+    "f1": 86.40027905006481,
+    "HasAns_exact": 79.79082321187585,
+    "HasAns_f1": 85.91945228768883,
+    "NoAns_accuracy": 86.87973086627419,
+    "hallucination_rate": 13.12026913372582,
+    "over_abstention_rate": 8.940620782726047
+  },
+  "judge_invalid": 0
+}
